@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* This won't be included in your compiled CSS unless you actually use it */
+  .timer {
+    transition: all 300ms; /* Transition all properties over a duration of 300 milliseconds */
+  }
+}
